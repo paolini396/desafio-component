@@ -1,28 +1,15 @@
 .container {
   max-width: 52.5rem;
   width: 100%;
-
+  height: 100vh;
   margin: 0 auto;
 }
 
-header {
-  span.category {
-    display: block;
-    margin-top: 2rem;
-
-    font-size: 2.25rem;
-    font-weight: 600;
-    color: var(--gray);
-  }
-
-  span {
-    color: var(--white);
-  }
-}
-
 main {
-  width: 100%;
+  width: 900px;
   margin-top: 5.625rem;
+  height: calc(100vh - 180px);
+  overflow: auto; 
 
   .movies-list {
     display: grid;
